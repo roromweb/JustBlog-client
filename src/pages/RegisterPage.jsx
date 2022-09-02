@@ -57,7 +57,7 @@ function RegisterPage() {
           className="fle justify-center items-center text-xs text-white bg-gray-700 rounded-lg px-4 py-2"
           onClick={handleSubmit}
         >
-          Зарегистроваться
+          Зарегистрироваться
         </button>
         <Link
           to="/login"
