@@ -38,7 +38,9 @@ function EditPostPage() {
     setTitle('');
     setText('');
   };
-
+  const closeFormHandler = () => {
+    navigate('/');
+  };
   useEffect(() => {
     fetchPost();
   }, [fetchPost]);
@@ -97,7 +99,13 @@ function EditPostPage() {
           onClick={clearFormHandler}
           className="flex justify-center items-center bg-red-500 text-xs text-white rounded-sm py-2 px-4"
         >
-          Отменить
+          Очистить
+        </button>
+        <button
+          onClick={closeFormHandler}
+          className="flex justify-center items-center bg-red-500 text-xs text-white rounded-sm py-2 px-4"
+        >
+          Закрыть
         </button>
       </div>
     </form>
