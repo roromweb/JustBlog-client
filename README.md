@@ -22,7 +22,7 @@
   <br>
   <img width="700px"  alt="Снимок5" src="https://github.com/roromweb/imagesJustBlog/blob/develop/FireShot%20Capture%20006%20-%20React%20App%20-%20localhost.png">
 
-- Редактирование, удаление и возвможность комментирования поста зарегистрированными пользователями:
+- Редактирование, удаление и возможность комментирования поста зарегистрированными пользователями:
   <br>
   <br>
   <img width="700px"  alt="Снимок6" src="https://github.com/roromweb/imagesJustBlog/blob/develop/FireShot%20Capture%20010%20-%20React%20App%20-%20localhost.png">
